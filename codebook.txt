@@ -1,0 +1,17 @@
+X_test <- data frame containing data from test group
+
+features <- variables for data obtained from subjects. used as column names for dataframes
+
+activities <- activities for which data is measured. added as a column to data frames.
+
+subject <- variable containing subject identifiers. added as a column to dataframes
+
+X_train <- data frame containing data from train group
+
+complete_tidy_data <- combined dataset for test and train sets
+
+tidy_data_averaged <- new dataset, which is an aggregation of the complete set, grouped by subject and activity. averageing scores for each measure.
+
+
+
+
