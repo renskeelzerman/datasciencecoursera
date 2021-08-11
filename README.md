@@ -4,7 +4,7 @@
 Create a tidy dataset from data collected from the accelerometers from the Samsung Galaxy S smartphone.
 ## How Does It Work
 
-The data is divided into a couple of different files. The script "run_analysis.R" transforms these into one tidy dataset called "tidy.csv".
+The data is divided into a couple of different files. The script "run_analysis.R" transforms these into one tidy dataset called "tidy.txt".
 
 First, the data from X_test is tidied. The column names are in "features.txt". They are added to the X_test values.
 All activities are in "y_test.txt". They are used to transform the integers that represent activities to activity strings. The "activities"
