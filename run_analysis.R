@@ -53,6 +53,7 @@ tidy_data_averaged <- aggregate(complete_tidy_data[ ,3:68], list(complete_tidy_d
 
 colnames(tidy_data_averaged)[1] <- "subject"
 colnames(tidy_data_averaged)[2] <- "activity"
-write.csv(tidy_data_averaged, "tidy.csv")
+#write.csv(tidy_data_averaged, "tidy.csv")
+write.table(tidy_data_averaged, "tidy.txt", row.name=FALSE)
 
 
